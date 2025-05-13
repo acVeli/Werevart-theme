@@ -64,23 +64,35 @@ table {
     margin: 0 auto;
 }
 .section-1 {
-    min-height: 90vh;
-    width: 100%;
+  width: 100%;
+  min-height: 90vh;
+  position: relative; 
 }
-.text-section-1{
-    z-index: 2;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+
+.section-1 .video-background {
+  position: absolute; 
+  width: 100%;
+  height: 100%; 
+  top: 0;
+  left: 0;
+  z-index: 0; 
 }
-.section-1 .video-background video{
-    position: absolute;
-    max-width: 100%;
-    top: -230px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
+
+
+.section-1 .video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 98%;
+}
+
+
+.section-1 .text-section-1 {
+  position: relative;
+  z-index: 1; 
 }
 .section-1 h1{
     color: var(--primary-color);
@@ -151,7 +163,6 @@ table {
 }
 
 .section-2{
-    margin-top: -50px;
     z-index: 2;
     position: relative;
     background-color: var(--third-color);
@@ -200,21 +211,28 @@ table {
     margin-top: 10px;
     line-height: 130%;
 }
-.section-3 video{
-    position: absolute;
-    max-width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
+.section-3 {
+  width: 100%;
+  min-height: 90vh;
+  position: relative; 
 }
-.section-3{
-    width: 100%;
-    min-height: 90vh;
+.section-3 .video-background {
+  position: absolute; 
+  width: 100%;
+  height: 100%; 
+  top: 0;
+  left: 0;
+  z-index: 0; 
 }
-.video-background{
-    position: relative;
+
+.section-3 .video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 70%;
 }
 .text-section-2{
     z-index: 2;
@@ -255,7 +273,6 @@ table {
     font-family: var(--font-primary);
 }
 .section-4{
-    margin-top: 35px;
     background-color: var(--primary-color);
     padding: 4rem;
 }
@@ -272,17 +289,27 @@ table {
     font-weight: 900;
 }
 .section-5 {
-    width: 100%;
-    min-height: 90vh;
+  width: 100%;
+  min-height: 90vh;
+  position: relative; 
 }
-.section-5 video{
-    position: absolute;
-    max-width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
+.section-5 .video-background {
+  position: absolute; 
+  width: 100%;
+  height: 100%; 
+  top: 0;
+  left: 0;
+  z-index: 0; 
+}
+
+.section-5 .video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 98%;
 }
 .text-section-3{
     z-index: 2;
@@ -390,9 +417,10 @@ table {
     font-weight: bold;
 }
 .section-7{
-    margin-top: -130px;
+    margin-top: -127px;
     background-image: url("/wordpress/wp-content/themes/astra-child/assets/img/bg_m_bleu_clair_up.png");
     background-repeat: no-repeat;
+    position: relative;
 }
 .section-7 h3{
     font-family: var(--font-primary);
@@ -444,6 +472,7 @@ table {
     color: var(--secondary-color);
 }
 .section-8 h3 {
+    margin-top: 80px;
     font-size: clamp(1.976rem, 1.976rem + ((1vw - 0.2rem) * 2.54), 3.5rem);
     font-weight: bold;
     font-family: var(--font-primary);
@@ -453,6 +482,13 @@ table {
 }
 .section-8 .faq-container{
     margin-top: 30px;
+}
+.bottom-blue-splash{
+    position: absolute;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 .bottom-blue-splash img{
     width: 100%;

@@ -161,10 +161,11 @@ get_header(); ?>
 				<li><img src="\wordpress\wp-content\themes\astra-child\assets\img\logo_bpifrance.png" alt=""></li>
 			</ul>
 		</div>
+		<div class="bottom-blue-splash">
+			<img src="\wordpress\wp-content\themes\astra-child\assets\img\bg_xxs_bleu_clair_down.webp" alt="">
+		</div>
 	</section>
-	<div class="bottom-blue-splash">
-		<img src="\wordpress\wp-content\themes\astra-child\assets\img\bg_xxs_bleu_clair_down.webp" alt="">
-	</div>
+	
 	<section class="section-8">
 		<div class="container">
 			<h3>Foire aux questions</h3>
