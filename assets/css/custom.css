@@ -86,7 +86,7 @@ table {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 98%;
+  object-position: 0% 98%;
 }
 
 
@@ -232,7 +232,7 @@ table {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 70%;
+  object-position: 0% 70%;
 }
 .text-section-2{
     z-index: 2;
@@ -309,7 +309,7 @@ table {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 98%;
+  object-position: 0% 98%;
 }
 .text-section-3{
     z-index: 2;
@@ -420,6 +420,7 @@ table {
     margin-top: -127px;
     background-image: url("/wordpress/wp-content/themes/astra-child/assets/img/bg_m_bleu_clair_up.png");
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 .section-7 h3{
@@ -485,7 +486,7 @@ table {
 }
 .bottom-blue-splash{
     position: absolute;
-    bottom: -10%;
+    bottom: -35px;
     left: 0;
     right: 0;
     z-index: 1;
@@ -516,4 +517,67 @@ details p span.span-primary{
 }
 details p span.span-and{
     color: var(--primary-color);
+}
+
+@media screen and (max-width: 1340px)
+{
+    .section-7 ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-7 ul li {
+        width: 100%;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .first-row, .second-row {
+        margin-top: 60px;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .section-6-video, .section-6-text {
+        width: 100% !important;
+    }
+    .section-6 .first-row video, .section-6 .second-row video{
+        width: 80% !important;
+    }
+    .first-row .section-6-text {
+        margin-top: 30px;
+    }
+    .second-row {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .bottom-blue-splash{
+        bottom: -15px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .solution-benefits ul li h4{
+        font-size: 0.8rem;
+        line-height: 120%;
+    }
+    .solution-benefits ul li img{
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .solution-benefits ul li h4{
+        font-size: 0.6rem;
+        line-height: 120%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .bottom-blue-splash{
+        bottom: -10px;
+    }
 }

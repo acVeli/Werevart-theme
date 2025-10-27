@@ -17,7 +17,7 @@ get_header(); ?>
 
 	<section class="section-1">
 		<div class="video-background">
-			<video autoplay muted loop playsinline>
+			<video autoplay muted loop playsinline class="video-section-1">
 				<source src="/wordpress/wp-content/themes/astra-child/assets/videos/lp_brush_sante_salle_verte-5.mp4" type="video/mp4">
 				Votre navigateur ne supporte pas la vidéo.
 			</video>
@@ -32,7 +32,7 @@ get_header(); ?>
 
 				<div class="btn-container">
 					<div>
-						<a href="#">Je veux voir une démo</a>
+						<a href="https://calendly.com/alexandrelatour/werevart" target="_blank">Je veux voir une démo</a>
 					</div>
 				</div>
 
@@ -68,7 +68,7 @@ get_header(); ?>
 
 	<section class="section-3">
 		<div class="video-background">
-			<video autoplay muted loop playsinline>
+			<video autoplay muted loop playsinline class="video-section-3">
 				<source src="/wordpress/wp-content/themes/astra-child/assets/videos/lp_brush_sante_salle_blanche_reduit.mp4" type="video/mp4">
 				Votre navigateur ne supporte pas la vidéo.
 			</video>
@@ -97,7 +97,7 @@ get_header(); ?>
 
 	<section class="section-5">
 		<div class="video-background">
-			<video autoplay muted loop playsinline>
+			<video autoplay muted loop playsinline class="video-section-5">
 				<source src="/wordpress/wp-content/themes/astra-child/assets/videos/lp_brush_sante_salle_reduit_4-1.mp4" type="video/mp4">
 				Votre navigateur ne supporte pas la vidéo.
 			</video>
@@ -114,7 +114,7 @@ get_header(); ?>
 				</ul>
 				<div class="btn-container">
 					<div>
-						<a href="#">Je veux en savoir plus</a>
+						<a href="https://calendly.com/alexandrelatour/werevart" target="_blank">Je veux en savoir plus</a>
 					</div>
 				</div>
 			</div>
@@ -126,7 +126,7 @@ get_header(); ?>
 			<h2><span class="span-primary">L’art dynamique,</span> au service des professionnels de la santé</h2>
 			<div class="first-row">
 				<div class="section-6-video">
-					<video src="\wordpress\wp-content\themes\astra-child\assets\videos\lp_cadre_yoga_bleue.mp4"></video>
+					<video src="\wordpress\wp-content\themes\astra-child\assets\videos\lp_cadre_yoga_bleue.mp4" autoplay muted loop></video>
 				</div>
 				<div class="section-6-text">
 					<h3>Les bienfaits de l’art</h3>
@@ -143,7 +143,7 @@ get_header(); ?>
 					<p>L’art dynamique est vivant. Il s’adapte à chaque <span class="span-primary">service de santé</span>, à chaque <span class="span-primary">pathologie</span>, à chaque <span class="span-primary">public</span>. Ses formes, ses couleurs, ses symboles sont <span class="span-primary">adaptables à volonté</span> pour répondre aux besoins et aux objectifs de tous les professionnels de santé et de leurs patients.</p>	
 				</div>
 				<div class="section-6-video">
-					<video src="\wordpress\wp-content\themes\astra-child\assets\videos\lp_cadre_vortex_violet-1.mp4"></video>
+					<video src="\wordpress\wp-content\themes\astra-child\assets\videos\lp_cadre_vortex_violet-1.mp4" autoplay muted loop></video>
 				</div>
 			</div>
 		</div>
